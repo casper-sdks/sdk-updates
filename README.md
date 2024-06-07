@@ -7,6 +7,7 @@ Updates on SDK status and feature discussion
 | SDK        | Latest Updates                                                                                                                                                   | Current Casper-Node<br>Protocol Alignment | Upcoming Casper-Node<br>Protocol Alignment | Condor Release Status | Planned Devnet Release Date | Planned Testnet Release Date |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------ | --------------------- | --------------------------- | ---------------------------- |
 | JavaScript | JavaScript SDK Condor updates are in progress.<br>Internal testing will commence after the updates.<br>Documentation and list of changes by the end of the week. | 1.5.6                                     | Condor                                     | Testing               | 07-Jun-24                   |                              |
+| Java       | Completed Condor gap analysis.<br>Started work on implementing the Condor changes.<br>Looking forward to the Devnet and CCTL readiness.                          | 1.5.6                                     | Condor                                     | Development           | TBC                         |                              |
 | Go         | Updates in progress, testing ongoing.<br>Aim for backward compatibility with Casper 1.5.6. Internal discussion on approach concluded.                            | 1.5.6                                     | Condor                                     | Testing               | TBC                         |                              |
 | C#         | Updates in progress, testing ongoing.<br>Aim for backward compatibility with Casper 1.5.6. Internal discussion on approach concluded.                            | 1.5.6                                     | Condor                                     | Testing               | TBC                         |                              |
 | Rust       | Updates pending technical discussions with CTO (Medha Parlikar).<br>Status to be updated once a consensus is reached.                                            | 1.5.6                                     | Condor                                     | TBC                   | TBC                         |                              |
@@ -25,8 +26,11 @@ Updates on SDK status and feature discussion
 - MAKE Services (David) shared a script for building a local NCTL image for Casper 2.0.
 - Dokerized NCTL with Condor changes is available for teams to test their changes locally.
 - Useful for teams to test locally, reducing load on DevNet.
+- Follow the instructions in the link [here](https://github.com/make-software/casper-nctl-docker/blob/feat-2.0/BUILD%20Condor.md) to build the Condor version of the NCTL docker image.
+
 
 ### Actions/Next Steps
 - Schedule a session with JS SDK Maintainer(Jan Hoffman) for a detailed overview and Q&A once JavaScript SDK updates are completed. - Devendran M
 - Gather information on teams using various SDKs. - Stormeye
 - Prepare a detailed diff between current and RC versions for documentation.- Jan Hoffman
+- Notify SDK Maintainers as soon as the Devnet is ready. - Devendran M
